@@ -1,0 +1,171 @@
+{
+  "completed_at_utc": "2026-11-23T17:31:33.897849+00:00",
+  "reproduction_command": "C:\\Users\\Admin\\Desktop\\Projects\\413\\final_project\\baseline\\.venv\\Scripts\\python.exe C:\\Users\\Admin\\Desktop\\Projects\\413\\final_project\\baseline\\train_logreg.py --data-dir C:\\Users\\Admin\\Desktop\\Projects\\413\\final_project\\baseline\\data --output-dir C:\\Users\\Admin\\Desktop\\Projects\\413\\final_project\\baseline\\outputs\\logreg",
+  "splits": {
+    "train": {
+      "filename": "train.csv",
+      "path": "C:\\Users\\Admin\\Desktop\\Projects\\413\\final_project\\baseline\\data\\train.csv",
+      "rows": 11521,
+      "class_counts": {
+        "0": 7263,
+        "1": 2437,
+        "2": 1821
+      },
+      "sha256": "f2cf257f0094166fe18153f033f27957bd9cf71a219947841b3c600c80c4a109"
+    },
+    "val": {
+      "filename": "val.csv",
+      "path": "C:\\Users\\Admin\\Desktop\\Projects\\413\\final_project\\baseline\\data\\val.csv",
+      "rows": 1440,
+      "class_counts": {
+        "0": 908,
+        "1": 304,
+        "2": 228
+      },
+      "sha256": "40b2de08a6911707d77abf8cfe993c7cbeee134d1fa3be068d9e8b97602ccbec"
+    },
+    "test": {
+      "filename": "test.csv",
+      "path": "C:\\Users\\Admin\\Desktop\\Projects\\413\\final_project\\baseline\\data\\test.csv",
+      "rows": 1441,
+      "class_counts": {
+        "0": 908,
+        "1": 305,
+        "2": 228
+      },
+      "sha256": "e33809b76c5f8cee7c9baad34f78cacb767c9e192d57decc83431e67610e991d"
+    }
+  },
+  "label_mapping": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  },
+  "class_order": [
+    0,
+    1,
+    2
+  ],
+  "random_seed": 42,
+  "python_version": "3.13.12",
+  "python_executable": "C:\\Users\\Admin\\Desktop\\Projects\\413\\final_project\\baseline\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "package_versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "joblib": "1.5.2",
+    "threadpoolctl": "3.6.0"
+  },
+  "selected_settings": {
+    "C": 10.0,
+    "class_weight": "balanced"
+  },
+  "selection_rule": "maximum validation macro-F1; exact ties: smaller C, then class_weight=None",
+  "fitted_on": "train only; no train+validation refit",
+  "numerical_threads": 1,
+  "fit_diagnostics": [
+    {
+      "C": 0.1,
+      "class_weight": null,
+      "warnings": [],
+      "n_iter": [
+        21
+      ]
+    },
+    {
+      "C": 0.1,
+      "class_weight": "balanced",
+      "warnings": [],
+      "n_iter": [
+        18
+      ]
+    },
+    {
+      "C": 1.0,
+      "class_weight": null,
+      "warnings": [],
+      "n_iter": [
+        60
+      ]
+    },
+    {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "warnings": [],
+      "n_iter": [
+        34
+      ]
+    },
+    {
+      "C": 10.0,
+      "class_weight": null,
+      "warnings": [],
+      "n_iter": [
+        101
+      ]
+    },
+    {
+      "C": 10.0,
+      "class_weight": "balanced",
+      "warnings": [],
+      "n_iter": [
+        74
+      ]
+    }
+  ],
+  "vectorizer_parameters": {
+    "analyzer": "word",
+    "binary": false,
+    "decode_error": "strict",
+    "dtype": "float64",
+    "encoding": "utf-8",
+    "input": "content",
+    "lowercase": true,
+    "max_df": 1.0,
+    "max_features": null,
+    "min_df": 1,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "norm": "l2",
+    "preprocessor": null,
+    "smooth_idf": true,
+    "stop_words": null,
+    "strip_accents": null,
+    "sublinear_tf": false,
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "tokenizer": null,
+    "use_idf": true,
+    "vocabulary": null
+  },
+  "classifier_parameters": {
+    "C": 10.0,
+    "class_weight": "balanced",
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 2000,
+    "multi_class": "deprecated",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": 42,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "verification": {
+    "prediction_csv_columns_counts_order_ids_truth_ranges": true,
+    "reloaded_model_predictions_match_both_exports": true,
+    "source_sha256_unchanged": true,
+    "all_six_fits_without_convergence_warnings": true
+  },
+  "final_source_sha256": {
+    "train": "f2cf257f0094166fe18153f033f27957bd9cf71a219947841b3c600c80c4a109",
+    "val": "40b2de08a6911707d77abf8cfe993c7cbeee134d1fa3be068d9e8b97602ccbec",
+    "test": "e33809b76c5f8cee7c9baad34f78cacb767c9e192d57decc83431e67610e991d"
+  }
+}
