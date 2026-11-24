@@ -1,0 +1,13 @@
+{
+  "selected_checkpoint": "bilstm_results_unweighted/best_bilstm.pt",
+  "best_epoch": 5,
+  "validation_macro_f1": 0.7208721822390828,
+  "test_macro_f1": 0.7324972688606831,
+  "test_accuracy": 0.794587092297016,
+  "test_examples": 1441,
+  "label_map": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  }
+}
