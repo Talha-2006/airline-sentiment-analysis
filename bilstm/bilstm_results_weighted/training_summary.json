@@ -1,0 +1,29 @@
+{
+  "best_epoch": 5,
+  "best_val_macro_f1": 0.7194355463508183,
+  "epochs_run": 8,
+  "max_epochs": 15,
+  "patience": 3,
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "seed": 42,
+  "model_config": {
+    "vocab_size": 5910,
+    "embedding_dim": 128,
+    "hidden_dim": 128,
+    "dropout": 0.3
+  },
+  "parameter_count": 1021443,
+  "loss": "class_weighted_cross_entropy",
+  "class_counts": [
+    7263,
+    2437,
+    1821
+  ],
+  "class_weights": [
+    0.5287530422210693,
+    1.575844645500183,
+    2.108914613723755
+  ],
+  "optimizer": "Adam"
+}
