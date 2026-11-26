@@ -1,3 +1,17 @@
 .venv/
 __pycache__/
 *.py[cod]
+
+# Data (contains tweet text; regenerate with baseline/data/generate_splits.py)
+Tweets.csv
+data/
+shared_splits/
+train.csv
+val.csv
+test.csv
+
+# Evaluation outputs (error files include tweet text)
+evaluation/results/
+
+# Fine-tuned DistilBERT weights (too large for git)
+distilBERT/distilbert_outputs/best_model/
